@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+.body {
+    background-color: #F6F7FB;
+    font-family: 'Poppins', sans-serif;
+}
+.text-sm{
+    font-size: 12px;
+}
+
+.Login {
+    min-height: 100vh;
+}
+
+.Login form {
+    width: 340px;
+    box-shadow: 0px 0px 2px #8f8d8d;
+    background-color: #ffff;
+}
+
+.Login form .sign-in {
+    font-size: 20px;
+}
+
+
+.Login input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border: 1px solid #ced4da;
+    margin: 5px 0px 15px 0px;
+    border-radius: 3px;
+}
+
+.Login .one-row-text .remember-btn {
+    padding-left: 2px;
+}
+
+.Login .one-row-text .forgot {
+    text-decoration: none;
+    color: #009e88;
+    float: right;
+}
+
+.Login .one-row-text .forgot-text {
+    flex: auto;
+}
+
+.Login form .login-btn {
+    background-color: #009e88;
+    padding: 10px 0px;
+    border: none;
+    color: #ffff;
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px 0px 5px 0px;
+}
+
+.Login form .account {
+    font-size: 12px;
+    margin: 5px 0px;
+}
+
+.Login .powered img {
+    max-width: 60px;
+    width: auto;
+}
+
+.footer {
+    background-color: #ffff;
+    border-top: 1px solid #979797;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #000;
+}
+
+/* dashboard */
+
+.dashboard{
+  width: 14rem;
+  background-color: aliceblue;
+}
+.dashboard span{
+  color: #000;
+}
+.dashboard .options, .dashboard .active:hover{
+  background-color: #009e88;
+}
+.dashboard .options span, .dashboard .active:hover>span, .dashboard .active:hover> span svg{
+  color: #ffff;
+}
